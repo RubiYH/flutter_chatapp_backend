@@ -6,9 +6,4 @@ export class AppController {
   home(): string {
     return 'welcome!';
   }
-
-  @Get('/validateUserID')
-  hi(): string {
-    return 'hi';
-  }
 }
